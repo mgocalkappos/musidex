@@ -33,7 +33,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <td>
     <xsl:value-of select="."/>
-    <a href="artists_list.html">&gt;</a>
+    <a href="song_list_1.html">&gt;</a>
   </td>
 </xsl:template>
 

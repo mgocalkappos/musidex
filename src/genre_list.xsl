@@ -10,7 +10,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <h1>list</h1>
       <table>
         <xsl:apply-templates select="catalog/song">
-        <xsl:sort select="artist" order="ascending" data-type="string" />
+        <xsl:sort select="genre" order="ascending" data-type="string" />
         </xsl:apply-templates>
       </table>
     </body>
@@ -24,16 +24,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:apply-templates select="artist"/>
     <xsl:apply-templates select="links/overview[@type='general']"/>
     <xsl:apply-templates select="images"/>-->
-    <xsl:apply-templates select="title"/>
+    <xsl:apply-templates select="genre"/>
     
   </tr>
 </xsl:template>
 
-<xsl:template match="title">
+<xsl:template match="genre">
 
   <td>
     <xsl:value-of select="."/>
-    <a href="artists_list.html">&gt;</a>
+    <a href="genre1.html">&gt;</a>
   </td>
 </xsl:template>
 
