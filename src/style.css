@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin:0;
+}
+.main-header{
+    height:95px;
+    background-color:blueviolet;
+    padding:20px;
+    padding-bottom: 8px;
+
+}
+.main-header h1{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.content h2{
+    text-align:center;
+}
+
+.flex-container1{
+    display: flex;
+    flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.artists{
+    flex:50%;
+    
+}
+.albums{
+    flex:50%;
+  
+}
+.artists h4{
+    padding: 10px;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+.albums h4{
+    padding: 10px;
+    text-transform:uppercase;
+    text-align:center;
+}
+.flex-container2{
+    display:flex;
+    flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.list_artists{
+    flex:50%;
+}
+.list_albums{
+    flex:50%;
+}
+
+.list_albums p{
+    text-align:center;
+}
+
+.list_artists p{
+    text-align:center;
+}
+
+.header{
+    height:95px;
+    background-color:blueviolet;
+    padding:20px;
+    padding-bottom: 8px;
+
+}
+.header h1{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
