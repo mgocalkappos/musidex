@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<xsl:stylesheet version="1.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 
 <xsl:template match="/">
   <html>
-    <body>
-    <h1><xsl:value-of select="catalog/header"/></h1>
-    <h1>list</h1>
-      <table>
-        <xsl:apply-templates select="catalog/song">
-        <xsl:sort select="artist" order="ascending" data-type="string" />
-        </xsl:apply-templates>
-      </table>
+    <body style="background-color:#313030;">
+      <h1 style="color:#FFFFFF;"><xsl:value-of select="catalog/header"/></h1>
+      <h1 style="color:#FFFFFF;">Songs by Andrew Gold</h1>
+        <table>
+          <xsl:apply-templates select="catalog/song">
+            <xsl:sort select="artist" order="ascending" data-type="string" />
+          </xsl:apply-templates>
+        </table>
     </body>
   </html>
 </xsl:template>
 
 <xsl:template match="song">
 
-  <tr>
+  <tr style="color:#FFFFFF;">
     <!--<xsl:apply-templates select="title[@language='english']"/>
     <xsl:apply-templates select="artist"/>
     <xsl:apply-templates select="links/overview[@type='general']"/>
     <xsl:apply-templates select="images"/>-->
     <xsl:apply-templates select="title"/>
-    
+    <hr />
   </tr>
+
 </xsl:template>
 
 <xsl:template match="title">
@@ -35,6 +35,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:value-of select="."/>
     <a href="song_list_1.html">&gt;</a>
   </td>
+
 </xsl:template>
 
 <!--<xsl:template match="title[@language='english']">

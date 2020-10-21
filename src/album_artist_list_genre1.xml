@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="album_artist_list_genre1.xsl"?>
+
 <catalog>
     <header>Musidex</header>
-	<song>
-
+	   <song>
         <title>First Love / Last Spring</title>
         <artist>Mitski</artist>
         <album>Bury Me at Makeout Creek</album>
@@ -21,15 +21,15 @@
 			<dynasty>4</dynasty>
 			<year era="BC">2580</year>
 		</history>-->
-		<images>
-			<image size="thumb" type="jpg">pyramid thumbnail</image>
-			<image size="large" type="jpg">pyramid large</image>
-			<image size="full" type="tif">pyramid full</image>
-		</images>
-		<links>
-			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-		</links>
+  		<images>
+  			<image size="thumb" type="jpg">pyramid thumbnail</image>
+  			<image size="large" type="jpg">pyramid large</image>
+  			<image size="full" type="tif">pyramid full</image>
+  		</images>
+  		<links>
+  			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+  			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+  		</links>
 	</song>
 	<song>
         <title>Spooky, Scary Skeletons</title>
@@ -39,13 +39,13 @@
         <genre>Spooky</genre>
         <length>2:07</length>
         <images>
-			<image size="thumb" type="jpg">pyramid thumbnail</image>
-			<image size="large" type="jpg">pyramid large</image>
-			<image size="full" type="tif">pyramid full</image>
-		</images>
+    			<image size="thumb" type="jpg">pyramid thumbnail</image>
+    			<image size="large" type="jpg">pyramid large</image>
+    			<image size="full" type="tif">pyramid full</image>
+		    </images>
         <links>
-			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+  			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+  			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
 		</links>
 		<!--<name language="english">Abu Simbel</name>
 		<location>Aswan</location>
