@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="music.xsl"?>
+<catalogue>
+    <song>
+        <title>First Love / Last Spring</title>
+        <artist>Mitski</artist>
+        <album>Bury Me at Makeout Creek</album>
+        <year>2014</year>
+        <genre>Alternative</genre>
+        <length>4:39</length>
+        <lyrics>ABC</lyrics>
+    </song>
+    <song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <lyrics>Spooky, Scary Skeletons, shivering down your spine</lyrics>
+    </song>
+</catalogue>
