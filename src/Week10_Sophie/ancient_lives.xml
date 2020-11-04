@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ancient_lives.xsl"?>
+<ancient_sites>
+	<site>
+		<name language="english">Edinburgh Castle</name>
+		<location>Edinburgh</location>
+		<country>Scotland</country>
+		<description>A historic fortress that sits on the Castle Rock</description>
+		<culture>Scottish</culture>
+		<history>
+            <period>Iron Age</period>
+			<dynasty>N/A</dynasty>
+			<year range="start" era="AD">1000</year>
+		</history>
+		<dimensions>
+			<width type="average" unit="metre">230.360</width>
+			<height type="original" unit="metre">146.59</height>
+			<height type="current" unit="metre">138.75</height>
+		</dimensions>
+		<images>
+			<image size="thumb" type="jpg" url="edinburgh-castle-thumb.jpg">thumbnail</image>
+			<image size="large" type="jpg" url="edinburgh-castle.jpg">large image</image>
+			<image size="full" type="tif">full image</image>
+		</images>
+		<links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Edinburgh_Castle">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/statesparties/gb">unesco</overview>
+		</links>
+		<notes>
+			<note type="intro">
+				Edinburgh Castle is a historic fortress which dominates the skyline of Edinburgh, the capital city of Scotland, from its position on the Castle Rock. Archaeologists have established human occupation of the rock since at least the Iron Age (2nd century AD), although the nature of the early settlement is unclear. As the backdrop to the Edinburgh Military Tattoo during the annual Edinburgh Festival, the castle has become a recognisable symbol of Edinburgh and Scotland.
+			</note>
+		</notes>
+	</site>
+	<site>
+		<name language="english">Urquhart Castle</name>
+		<location>Scottish Highlands</location>
+		<country>Scotland</country>
+		<description>Urquhart Castle, a ruin, sits beside Loch Ness in the Highlands of Scotland</description>
+		<culture>Scottish</culture>
+		<history>
+            <period>13th century</period>
+			<dynasty>N/A</dynasty>
+			<year range="start" era="AD">1200</year>
+		</history>
+		<images>
+			<image size="thumb" type="jpg" url="urquhart-castle-thumb.jpg">thumbnail</image>
+			<image size="large" type="jpg" url="urquhart-castle.jpg">large image</image>
+			<image size="full" type="tif">full image</image>
+		</images>
+		<links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Urquhart_Castle">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/statesparties/gb">unesco</overview>
+		</links>
+		<notes>
+			<note type="intro">
+				The castle, situated on a headland overlooking Loch Ness, is one of the largest in Scotland in area. The walled portion of the castle is shaped roughly like a figure-8 aligned northeast-southwest along the bank of the loch, around 150 by 46 metres (492 by 151 ft), forming two baileys (enclosures): the Nether Bailey to the north, and the Upper Bailey to the south.
+			</note>
+		</notes>
+	</site>
+	<site>
+		<name language="english">Calanais Standing Stones</name>
+		<location>Callanish Village</location>
+		<country>Scotland</country>
+		<description>An arrangement of standing stones placed in a cruciform pattern with a central stone circle.</description>
+		<culture>Scottish</culture>
+		<history>
+            <period>Neolithic Era</period>
+			<dynasty>N/A</dynasty>
+			<year range="start" era="BC">2900</year>
+		</history>
+		<images>
+			<image size="thumb" type="jpg" url="cal-stones-thumb.jpg">thumbnail</image>
+			<image size="medium" type="jpg">medium image</image>
+			<image size="large" type="jpg" url="cal-stones.jpg">large image</image>
+			<image size="full" type="tif">full image</image>
+		</images>
+		<links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Callanish_Stones">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/statesparties/gb">unesco</overview>
+		</links>
+		<notes>
+			<note type="intro">
+				The Calanais Standing Stones were erected in the late Neolithic era, and were a focus for ritual activity during the Bronze Age. The existence of other monuments in the area implies that Callanish was an active focus for prehistoric religious activity for at least 1500 years.
+			</note>
+		</notes>
+	</site>
+</ancient_sites>

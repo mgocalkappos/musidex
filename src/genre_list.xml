@@ -3,10 +3,9 @@
 <catalog>
     <header>Musidex</header>
 	<song>
-
         <title>First Love / Last Spring</title>
         <artist>Mitski</artist>
-        <album>Bury Me at Makeout Creek</album>
+        <album><![CDATA[<a style="text-decoration:none; color:blue;" href="info1.html">Bury Me at Makeout Creek</a>]]></album>
         <year>2014</year>
         <genre>Alternative</genre>
         <length>4:39</length>
@@ -20,12 +19,12 @@
       <period>Old Kingdom</period>
 			<dynasty>4</dynasty>
 			<year era="BC">2580</year>
-		</history>-->
+		</history>
 		<images>
 			<image size="thumb" type="jpg">pyramid thumbnail</image>
 			<image size="large" type="jpg">pyramid large</image>
 			<image size="full" type="tif">pyramid full</image>
-		</images>
+		</images>-->
 		<links>
 			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
 			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
@@ -34,7 +33,7 @@
 	<song>
         <title>Spooky, Scary Skeletons</title>
         <artist>Andrew Gold</artist>
-        <album>Halloween Howls</album>
+        <album><![CDATA[<a style="text-decoration:none; color:red;" href="info2.html">Halloween Howls</a>]]></album>
         <year>1995</year>
         <genre>Spooky</genre>
         <length>2:07</length>
@@ -67,5 +66,226 @@
 			<overview type="heritage" url="http://whc.unesco.org/en/list/88">unesco</overview>
 		</links>
 		<notes>...</notes>-->
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
+	</song>
+	<song>
+        <title>Spooky, Scary Skeletons</title>
+        <artist>Andrew Gold</artist>
+        <album>Halloween Howls</album>
+        <year>1995</year>
+        <genre>Spooky</genre>
+        <length>2:07</length>
+        <images>
+			<image size="thumb" type="jpg">pyramid thumbnail</image>
+			<image size="large" type="jpg">pyramid large</image>
+			<image size="full" type="tif">pyramid full</image>
+		</images>
+        <links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+			<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+		</links>
 	</song>
 </catalog>
