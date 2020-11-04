@@ -15,12 +15,51 @@
 
 <div class="content">
     <div class="content-h2">
-        <img src="" alt="">
-        <p><a class="contentLink" href="song_list_1.xml">Info</p>
+        <!-- <img src="" alt="">
+        <p><a class="contentLink" href="song_list_1.xml">Info</p> -->
+        <button class= "albums" type="button" onclick="loadDoc()">Song Info</button>
+    </div>
+    <div id=demo>
+        <div>
+          <h3 style="font-size:35px; padding:7px; color:white;">Vibrant Musics</h3>
+        </div>  
     </div>
 </div>
 
 </div><!--conatiner end tag-->
+<script>
+    function loadDoc()
+    {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function()
+        {
+            if (this.readyState == 4 && this.status == 200) 
+            {
+                myFunction(this);
+            }
+        };
+        xhttp.open("GET", "song_list_1.xml", true);
+        xhttp.send();
+    }
+    function myFunction(xml)
+    {
+        var i, text="";
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("song1");
+            for (i = 0; i <x.length; i++) 
+            { 
+                text += x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("genre")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("length")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("lyrics")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("links")[0].childNodes[0].nodeValue + "<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+   }
+</script>
 </body>
 </html>
 

@@ -61,3 +61,11 @@
     color: #661AC8;
     font-family: "Roboto";
 }
+
+.songInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

@@ -5,7 +5,7 @@
 	<song>
         <title>First Love / Last Spring</title>
         <artist>Mitski</artist>
-        <album><![CDATA[<a style="text-decoration:none; color:blue;" href="info1.html">Bury Me at Makeout Creek</a>]]></album>
+        <album><![CDATA[<a style="text-decoration:none; color:blue;" href="song_list_1.html">Bury Me at Makeout Creek</a>]]></album>
         <year>2014</year>
         <genre>Alternative</genre>
         <length>4:39</length>
@@ -33,7 +33,7 @@
 	<song>
         <title>Spooky, Scary Skeletons</title>
         <artist>Andrew Gold</artist>
-        <album><![CDATA[<a style="text-decoration:none; color:red;" href="info2.html">Halloween Howls</a>]]></album>
+        <album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Halloween Howls</a>]]></album>
         <year>1995</year>
         <genre>Spooky</genre>
         <length>2:07</length>
