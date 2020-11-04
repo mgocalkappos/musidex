@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ancient_sites_example.xsl"?>
+
+<historical_sites>
+	<site>
+    <name language="english">Main Square of Krakow</name>
+		<location>Stare Miasto, Krakow</location>
+		<country>Poland</country>
+    <description>The main square of the Old Town of Kraków, Lesser Poland, is
+			the principal urban space located at the center of the city.</description>
+		<culture>Polish</culture>
+		<history>
+      <period>Piast Period</period>
+			<dynasty>Piast Monarchy</dynasty>
+			<year range="start" era="CE">1257</year>
+		</history>
+		<dimensions>
+			<width type="average" unit="metre">200</width>
+			<height type="original" unit="metre">80</height>
+			<height type="current" unit="metre">80</height>
+		</dimensions>
+		<images>
+			<image size="thumb" type="jpg" url="assets/Main_Square_thumb.jpeg">thumbnail</image>
+			<image size="large" type="jpg" url="assets/Main_Square_Krakow_Poland.JPG">large image</image>
+			<image size="full" type="tif">full image</image>
+		</images>
+		<links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Main_Square,_Krak%C3%B3w">
+        wikipedia
+      </overview>
+			<overview type="heritage" url="https://whc.unesco.org/en/list/29/">unesco</overview>
+		</links>
+		<notes>
+			<note type="intro">
+				The Historic Centre of Kraków, the former capital of Poland, is situated
+        at the foot of the Royal Wawel Castle. The 13th-century merchants' town
+        has Europe's largest market square and numerous historical houses,
+        palaces and churches with their magnificent interiors. Further evidence
+        of the town's fascinating history is provided by the remnants of the
+        14th-century fortifications and the medieval site of Kazimierz with its
+        ancient synagogues in the southern part of town, Jagellonian University
+        and the Gothic cathedral where the kings of Poland were buried.
+      </note>
+		</notes>
+	</site>
+
+	<site>
+		<name language="english">Wawel Castle</name>
+		<location>Wawel Hill, Krakow</location>
+		<country>Poland</country>
+		<description>
+      Wawel Castle had been the residence of Polish kings for centuries and a
+      site of most important events in Polish history.
+    </description>
+		<culture>Polish</culture>
+		<history>
+      <period>Early Modern</period>
+			<dynasty>Jagiellonian Dynasty</dynasty>
+			<year range="start" era="CE">1506</year>
+		</history>
+		<images>
+			<image size="thumb" type="jpg" url="assets/Wawel_Courtyard_thumb.jpg">thumbnail</image>
+			<image size="large" type="jpg" url="assets/Wawel_Hill.jpg">large image</image>
+			<image size="full" type="tif">full image</image>
+		</images>
+		<links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Wawel_Castle">wikipedia</overview>
+			<overview type="heritage" url="https://whc.unesco.org/en/list/29/">unesco</overview>
+		</links>
+		<notes>
+			<note type="intro">
+        The first major rebuilt of the Royal Castle took place under the rule
+        of Casimir III the Great, who reigned from 1333 to 1370. The reign of
+        Casimir III the Great is often defined as the golden era of Polish
+        development, what is undoubtedly reflected in Castle’s architecture.
+        During the rebuilt, the Castle was adapted to be not only the king’s
+        residence but also to house expanding state apparatus.
+			</note>
+		</notes>
+	</site>
+
+	<site>
+		<name language="english">Wieliczka Salt Mine</name>
+		<location>Wieliczka, Krakow County</location>
+		<country>Poland</country>
+		<description>This salt mine is comprised of 330km of galleries built on 9
+      levels. Various curiosities await; carvings, saline lakes, deep wells,
+      and more.
+    </description>
+		<culture>Polish</culture>
+		<history>
+      <period>Piast Period</period>
+			<dynasty>Piast Monarchy</dynasty>
+			<year range="start" era="CE">1200</year>
+			<year range="end" era="CE">1300</year>
+		</history>
+		<images>
+			<image size="thumb" type="jpg" url="assets/Wieliczka_Salt_Mine_thumb.jpg">thumbnail</image>
+			<image size="medium" type="jpg">medium image</image>
+			<image size="large" type="jpg" url="Wieliczka_Salt_Mine.jpg">large image</image>
+			<image size="full" type="tif">full image</image>
+		</images>
+		<links>
+			<overview type="general" url="https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine">wikipedia</overview>
+			<overview type="heritage" url="https://whc.unesco.org/en/list/32">unesco</overview>
+		</links>
+		<notes>
+			<note type="intro">
+				The deposit of rock salt in Wieliczka has been mined since the 13th
+        century. This major industrial undertaking has royal status and is the
+        oldest of its type in Europe. The Wieliczka Salt Mines illustrate the
+        historic stages of the development of mining techniques in Europe from
+        the 13th to the 20th centuries: the mines have hundreds of kilometers
+        of galleries with works of art, underground chapels and statues sculpted
+        in the salt, making a fascinating pilgrimage into the past.
+			</note>
+		</notes>
+	</site>
+</historical_sites>
