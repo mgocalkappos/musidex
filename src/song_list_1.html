@@ -38,14 +38,14 @@
                 myFunction(this);
             }
         };
-        xhttp.open("GET", "song_list_1.xml", true);
+        xhttp.open("GET", "genre_list.xml", true);
         xhttp.send();
     }
     function myFunction(xml)
     {
         var i, text="";
             var xmlDoc = xml.responseXML;
-            var x = xmlDoc.getElementsByTagName("song1");
+            var x = xmlDoc.getElementsByTagName("song");
             for (i = 0; i <x.length; i++) 
             { 
                 text += x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "<br>";
@@ -54,8 +54,8 @@
                 text += x[i].getElementsByTagName("genre")[0].childNodes[0].nodeValue + "<br>";
                 text += x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue + "<br>";
                 text += x[i].getElementsByTagName("length")[0].childNodes[0].nodeValue + "<br>";
-                text += x[i].getElementsByTagName("lyrics")[0].childNodes[0].nodeValue + "<br>";
-                text += x[i].getElementsByTagName("links")[0].childNodes[0].nodeValue + "<br>";
+                // text += x[i].getElementsByTagName("lyrics")[0].childNodes[0].nodeValue + "<br>";
+                // text += x[i].getElementsByTagName("links")[0].childNodes[0].nodeValue + "<br>";
             }
             document.getElementById("demo").innerHTML = text;
    }
