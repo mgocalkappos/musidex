@@ -45,7 +45,7 @@
     {
         var i, text="";
             var xmlDoc = xml.responseXML;
-            var x = xmlDoc.getElementsByTagName("song");
+            var x = xmlDoc.getElementsByTagName("song2");
             for (i = 0; i <x.length; i++) 
             { 
                 text += x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "<br>";

@@ -53,6 +53,7 @@
         };
         xhttp.open("GET", "genre_list.xml", true);
         xhttp.send();
+
     }
     function myFunction(xml)
     {
@@ -62,6 +63,10 @@
             for (i = 0; i <x.length; i++) 
             { 
                 text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>";
+                // <button type="button" onclick="loadDoc2()">
+                //     {text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>"}
+                // </button>
+
             }
             document.getElementById("demo").innerHTML = text;
    }
@@ -89,6 +94,30 @@ function myFunction1(xml)
         }
         document.getElementById("demo").innerHTML = text;
 }
+function loadDoc2()
+    {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function()
+        {
+            if (this.readyState == 4 && this.status == 200) 
+            {
+                myFunction(this);
+            }
+        };
+        xhttp.open("GET", "genre_list.xml", true);
+        xhttp.send();
+    }
+    function myFunction2(xml)
+    {
+        var i, text="";
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("song");
+            for (i = 0; i <x.length; i++) 
+            { 
+                text += x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+   }
 
 </script>
 
