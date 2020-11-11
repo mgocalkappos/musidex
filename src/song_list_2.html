@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Musidex | Song</title>
+ <link rel="stylesheet" type="text/css" href="song.css">
+</head>
+<body>
+
+<div class="genre-main">
+<div class="navbar">
+    <h1 class="navbar-h1"> Musidex </h1>
+    <!--<h1><a href="catalog.xml">View Catalog</a></h1>-->
+</div>
+
+<div class="content">
+    <div class="content-h2">
+        <!-- <img src="" alt="">
+        <p><a class="contentLink" href="song_list_1.xml">Info</p> -->
+        <button class= "albums" type="button" onclick="loadDoc()">Song Info</button>
+    </div>
+    <div id=demo>
+        <div>
+          <h3 style="font-size:35px; padding:7px; color:white;">Vibrant Musics</h3>
+        </div>  
+    </div>
+</div>
+
+</div><!--conatiner end tag-->
+<script>
+    function loadDoc()
+    {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function()
+        {
+            if (this.readyState == 4 && this.status == 200) 
+            {
+                myFunction(this);
+            }
+        };
+        xhttp.open("GET", "genre_list.xml", true);
+        xhttp.send();
+    }
+    function myFunction(xml)
+    {
+        var i, text="";
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("song2");
+            for (i = 0; i <x.length; i++) 
+            { 
+                text += x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("genre")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue + "<br>";
+                text += x[i].getElementsByTagName("length")[0].childNodes[0].nodeValue + "<br>";
+                // text += x[i].getElementsByTagName("lyrics")[0].childNodes[0].nodeValue + "<br>";
+                // text += x[i].getElementsByTagName("links")[0].childNodes[0].nodeValue + "<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+   }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>Musidex | Song Description</title>
+</head>
+<body>
+    <xml id="songs" src="song_list_1.xml" />
+    <table datasrc="#songs">
+        <tr>
+            <td><strong>Title</strong>:</td>
+            <td>
+                <div datafld="title"></div>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Artist</strong>:</td>
+            <td>
+                <div datafld="artist"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>-->
