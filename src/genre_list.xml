@@ -6,7 +6,7 @@
 		<song1>
 			<title>First Love / Last Spring</title>
 			<artist>Mitski</artist>
-			<album><![CDATA[<button style="text-decoration:none; color:blue;" onclick="loadDoc2()">Bury Me at Makeout Creek</button>]]></album>
+			<album><![CDATA[<a href="genre_list.xml" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></album>
 			<year>2014</year>
 			<genre>Alternative</genre>
 			<length>4:39</length>
