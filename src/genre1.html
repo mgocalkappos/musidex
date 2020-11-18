@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Musidex | Genres</title>
- <link rel="stylesheet" type="text/css" href="style.css">
- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <meta charset="UTF-8">
+    <title>Musidex | Genres</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
 </head>
+
 <body>
 
-<div class="header">
+    <div class="header">
         <h1> Musidex </h1>
-    <!--<h1><a href="catalog.xml">View Catalog</a></h1>-->
-</div>
-<br>
-<div class="flex-container1">
-    <div class="side">
-        <br>
-        <h2>Menu</h2>
-         <button class= "albums" type="button" onclick="loadDoc()">Albums</button>
-         <button class= "artists" type="button" onclick="loadDoc1()">Artists</button>
+        <!--<h1><a href="catalog.xml">View Catalog</a></h1>-->
     </div>
-    <div id=demo class="main">
-        <div class="showcase">
-          <h3 style="font-size:35px; padding:7px;">Vibrant Musics</h3>
-        </div>  
+    <br>
+    <div class="flex-container1">
+        <div class="side">
+            <br>
+            <h2>Menu</h2>
+            <button class="albums" type="button" onclick="loadDoc()">Albums</button>
+            <button class="artists" type="button" onclick="loadDoc1()">Artists</button>
+        </div>
+        <div id=demo class="main">
+            <div id="demo-child1" style="display: block;" class="showcase">
+                <h3 style="font-size:35px; padding:7px;">Vibrant Musics</h3>
+            </div>
+            <div id="demo-child2" style="display: none;">
+                <ul id="album-list" style="list-style-type:none;">
+                </ul>
+            </div>
+            <div id="demo-child4" style="display: none;">
+                <ul id="artist-list" style="list-style-type:none;">
+                </ul>
+            </div>
+           <div id="demo-child3" style="display: none;">
+                <ul id="song-list" style="list-style-type:none;">
+                </ul>
+            </div>
+        </div>
     </div>
-</div>
-<br>
-<div class="footer">
-    <p>copyright 2020 - Lahari | Maya | Sophie</p>
-</div>
+    <br>
+    <div class="footer">
+        <p>copyright 2020 - Lahari | Maya | Sophie</p>
+    </div>
 
-<!--<div class="flex-container2">
+    <!--<div class="flex-container2">
     <div class="list_artists">
         <p><a href="album_artist_list_genre1.html">Hop-in</p>
         </div>
@@ -39,87 +53,236 @@
         <p><a href="album_artist_list_genre1.html">Hop-in</p>
     </div>
 </div>-->
-</div><!--conatiner end tag-->
-<script>
-    function loadDoc()
-    {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function()
-        {
-            if (this.readyState == 4 && this.status == 200) 
-            {
-                myFunction(this);
-            }
-        };
-        xhttp.open("GET", "genre_list.xml", true);
-        xhttp.send();
+    </div>
+    <!--conatiner end tag-->
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "genre_list.xml", true);
+            xhttp.send();
 
-    }
-    function myFunction(xml)
-    {
-        var i, text="";
+        }
+        function myFunction(xml) {
+            // document.getElementById("demo-child2").innerHTML = "";
+            // document.getElementById("demo-child3").innerHTML = "";
+            var i, albums, songs = "";
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("albums");
+            console.log(x[0].children);
+
+            // if(document.getElementById("demo-child1")){
+                document.getElementById("demo-child1").style.display = 'none';
+                document.getElementById("demo-child2").style.display = "block";
+            // }             
+
+            for (var i = 0; i < x[0].children.length; i++) {
+                var child = x[0].children[i];
+                console.log(child.getElementsByTagName("album")[0].innerHTML);
+                albums = child.getElementsByTagName("album")[0].innerHTML;
+
+                var ul = document.getElementById("album-list");
+                var li = document.createElement("li");
+                li.innerHTML = albums;
+                // if(ul){
+                    ul.appendChild(li);
+                // }                
+            }
+
+            var listItems = document.querySelectorAll("#album-list li"),
+                tab = [];
+
+            console.log(listItems);
+            // console.log(listItems.length);
+
+           // for (var j = 0; j < listItems.length; j++) {
+             //   tab.push(listItems[j].innerHTML);
+            //}
+
+            console.log(tab);
+
+            for (var k = 0; k < listItems.length; k++) {
+                tab.push(listItems[k].innerHTML);
+                listItems[k].onclick = function () {
+                    console.log(tab.indexOf(this.innerHTML));
+                    console.log(x[0]);
+                    console.log(x[0].children[tab.indexOf(this.innerHTML)]);
+
+                    songList = x[0].children[tab.indexOf(this.innerHTML)];
+                    console.log(songList);
+                    songs = songList.getElementsByTagName("songs");
+                    // songTitles = songs[0].getElementsByTagName('title');
+                    // console.log(songs[0].getElementsByTagName('title'));
+
+                    document.getElementById("demo-child1").style.display = "none";
+                    document.getElementById("demo-child2").style.display = "none";
+                    document.getElementById("demo-child3").style.display = "block";
+
+                    // var songsList = document.querySelector('#demo-child3');
+                    // songsList.innerHTML = '<ul>' + songs.children[0].map(function (song) {
+                    //     return '<li>' + song + '</li>';
+                    // }).join('') + '</ul>';
+
+                    for (var l = 0; l < songs[0].getElementsByTagName('title').length; l++) {
+                        var songTitle = songs[0].getElementsByTagName('title')[l].innerHTML;
+                        console.log(songTitle);
+                        // text = songTitle.getElementsByTagName("album")[0].innerHTML;
+
+                        var ul = document.getElementById("song-list");
+                        var li = document.createElement("li");
+                        li.innerHTML = songTitle;
+                        // if(ul){
+                            ul.appendChild(li);
+                        // }   
+                    }
+                }
+            }
+        }
+
+        function loadDoc1() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction1(this);
+                }
+            };
+            xhttp.open("GET", "genre_list.xml", true);
+            xhttp.send();
+
+        }
+        function myFunction1(xml) {
+            // document.getElementById("demo-child2").innerHTML = "";
+            // document.getElementById("demo-child3").innerHTML = "";
+            var i, albums, songs = "";
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("albums");
+            console.log(x[0].children);
+
+            //if(document.getElementById("demo-child1")){
+                document.getElementById("demo-child1").style.display = 'none';
+                document.getElementById("demo-child4").style.display = "block";
+                        
+
+            for (var i = 0; i < x[0].children.length; i++) {
+                var child = x[0].children[i];
+                console.log(child.getElementsByTagName("artist")[0].innerHTML);
+                albums = child.getElementsByTagName("artist")[0].innerHTML;
+
+                var ul = document.getElementById("artist-list");
+                var li = document.createElement("li");
+                li.innerHTML = albums;
+                if(ul){
+                    ul.appendChild(li);
+                }                
+            }
+
+            var listItems = document.querySelectorAll("#artist-list li"),
+                tab = [];
+
+            console.log(listItems);
+            // console.log(listItems.length);
+
+            for (var j = 0; j < listItems.length; j++) {
+                tab.push(listItems[j].innerHTML);
+            }
+
+            console.log(tab);
+
+            for (var k = 0; k < listItems.length; k++) {
+                listItems[k].onclick = function () {
+                    console.log(tab.indexOf(this.innerHTML));
+                    console.log(x[0]);
+                    console.log(x[0].children[tab.indexOf(this.innerHTML)]);
+
+                    songList = x[0].children[tab.indexOf(this.innerHTML)];
+                    console.log(songList);
+                    songs = songList.getElementsByTagName("songs");
+                    // songTitles = songs[0].getElementsByTagName('title');
+                    // console.log(songs[0].getElementsByTagName('title'));
+
+                    document.getElementById("demo-child1").style.display = "none";
+                    document.getElementById("demo-child4").style.display = "none";
+                    document.getElementById("demo-child3").style.display = "block";
+
+                    // var songsList = document.querySelector('#demo-child3');
+                    // songsList.innerHTML = '<ul>' + songs.children[0].map(function (song) {
+                    //     return '<li>' + song + '</li>';
+                    // }).join('') + '</ul>';
+
+                    for (var l = 0; l < songs[0].getElementsByTagName('title').length; l++) {
+                        var songTitle = songs[0].getElementsByTagName('title')[l].innerHTML;
+                        console.log(songTitle);
+                        // text = songTitle.getElementsByTagName("album")[0].innerHTML;
+
+                        var ul = document.getElementById("song-list");
+                        var li = document.createElement("li");
+                        li.innerHTML = songTitle;
+                        // if(ul){
+                            ul.appendChild(li);
+                        // }   
+                    }
+                }
+            }
+        }
+
+        // function loadTitle(e) {
+        //     console.log(e);
+        //     var xhttp = new XMLHttpRequest();
+        //     xhttp.onreadystatechange = function () {
+        //         if (this.readyState == 4 && this.status == 200) {
+        //             myFunction3(this);
+        //         }
+        //     };
+        //     xhttp.open("GET", "genre_list.xml", true);
+        //     xhttp.send();
+
+        // }
+        /*function loadDoc1() {
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction1(this);
+                }
+            };
+            xhttp.open("GET", "genre_list.xml", true);
+            xhttp.send();
+        }
+        function myFunction1(xml) {
+            var i, text = "";
             var xmlDoc = xml.responseXML;
             var x = xmlDoc.getElementsByTagName("song");
-            for (i = 0; i <x.length; i++) 
-            { 
-                text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>";
-                // <button type="button" onclick="loadDoc2()">
-                //     {text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>"}
-                // </button>
-
+            for (i = 0; i < x.length; i++) {
+                text += x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue + "<br>";
             }
             document.getElementById("demo").innerHTML = text;
-   }
-   function loadDoc1()
-{
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function()
-    {
-        if (this.readyState == 4 && this.status == 200) 
-        {
-            myFunction1(this);
         }
-    };
-    xhttp.open("GET", "genre_list.xml", true);
-    xhttp.send();
-}
-function myFunction1(xml)
-{
-    var i, text="";
-        var xmlDoc = xml.responseXML;
-        var x = xmlDoc.getElementsByTagName("song");
-        for (i = 0; i <x.length; i++) 
-        { 
-            text += x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue + "<br>";
+        function loadDoc2() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "genre_list.xml", true);
+            xhttp.send();
         }
-        document.getElementById("demo").innerHTML = text;
-}
-function loadDoc2()
-    {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function()
-        {
-            if (this.readyState == 4 && this.status == 200) 
-            {
-                myFunction(this);
-            }
-        };
-        xhttp.open("GET", "genre_list.xml", true);
-        xhttp.send();
-    }
-    function myFunction2(xml)
-    {
-        var i, text="";
+        function myFunction2(xml) {
+            var i, text = "";
             var xmlDoc = xml.responseXML;
             var x = xmlDoc.getElementsByTagName("song");
-            for (i = 0; i <x.length; i++) 
-            { 
+            for (i = 0; i < x.length; i++) {
                 text += x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "<br>";
             }
             document.getElementById("demo").innerHTML = text;
-   }
+        }*/
 
-</script>
+    </script>
 
 </body>
+
 </html>

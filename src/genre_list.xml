@@ -2,131 +2,167 @@
 <?xml-stylesheet type="text/xsl" href="genre_list.xsl"?>
 <catalog>
     <header>Musidex</header>
-	<song>
-		<song1>
-			<title>First Love / Last Spring</title>
-			<artist>Mitski</artist>
-			<album><![CDATA[<a href="genre_list.xml" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></album>
-			<year>2014</year>
-			<genre>Alternative</genre>
-			<length>4:39</length>
-			<lyrics>ABC</lyrics>
-			<!--<name language="english">Great Pyramid</name>
-			<location>Giza</location>
-			<country>Egypt</country>
-			<description>Khufu's pyramid on the Giza plateau outside Cairo</description>
-			<culture>Ancient Egypt</culture>
-			<history>
-		<period>Old Kingdom</period>
-				<dynasty>4</dynasty>
-				<year era="BC">2580</year>
-			</history>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>-->
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
-		</song1>
-	</song>
-	<song>
-		<song2>
-			<title>Spooky, Scary Skeletons</title>
-			<artist>Andrew Gold</artist>
-			<album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Halloween Howls</a>]]></album>
-			<year>1995</year>
-			<genre>Spooky</genre>
-			<length>2:07</length>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
-			<!--<name language="english">Abu Simbel</name>
-			<location>Aswan</location>
-			<country>Egypt</country>
-			<description>temple complex built by Ramesses II</description>
-			<culture>Ancient Egypt</culture>
-			<history>
-		<period>New Kingdom</period>
-				<dynasty>19</dynasty>
-				<year era="BC">1264</year>
-			</history>
-			<images>
-				<image size="thumb" type="jpg">Abu Simbel thumbnail</image>
-				<image size="large" type="jpg">Abu Simbel large</image>
-				<image size="full" type="tif">Abu Simbel full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Abu_Simbel_temples">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/88">unesco</overview>
-			</links>
-			<notes>...</notes>-->
-		</song2>
-	</song>
-	<song>
-		<song3>
-			<title>Spooky, Scary Skeletons</title>
-			<artist>Andrew Gold</artist>
-			<album>Halloween Howls</album>
-			<year>1995</year>
-			<genre>Spooky</genre>
-			<length>2:07</length>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
-		</song3>
-	</song>
-	<song>
-		<song4>
-			<title>Spooky, Scary Skeletons</title>
-			<artist>Andrew Gold</artist>
-			<album>Halloween Howls</album>
-			<year>1995</year>
-			<genre>Spooky</genre>
-			<length>2:07</length>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
-		</song4>
-	</song>
-	<song>
-		<song5>
-			<title>Spooky, Scary Skeletons</title>
-			<artist>Andrew Gold</artist>
-			<album>Halloween Howls</album>
-			<year>1995</year>
-			<genre>Spooky</genre>
-			<length>2:07</length>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
-		</song5>
-	</song>
+	<albums>
+		<album1>
+			<album>
+				<a style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>
+			</album>
+			<songs>
+				<song1>
+					<title>First Love</title>
+					<artist>Mitski</artist>
+					<!-- <album> -->
+						<!-- <a href="genre_list.xml" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a> -->
+					<!-- </album> -->
+					<!--<album><![CDATA[<a href="genre_list.xml" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></album>-->
+					<year>2014</year>
+					<genre>Alternative</genre>
+					<length>4:39</length>
+					<lyrics>ABC</lyrics>
+				</song1>
+				<song2>
+					<title>Last Spring</title>
+					<artist>Mitski</artist>
+					<!-- <album> -->
+						<!-- <a href="genre_list.xml" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a> -->
+					<!-- </album> -->
+					<!--<album><![CDATA[<a href="genre_list.xml" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></album>-->
+					<year>2014</year>
+					<genre>Alternative</genre>
+					<length>4:39</length>
+					<lyrics>ABC</lyrics>
+				</song2>
+				<song3>
+				<title>First Love / Last Spring</title>
+					<artist>Mitski</artist>
+					<!-- <album> -->
+						<!-- <a href="genre_list.xml" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a> -->
+					<!-- </album> -->
+					<!--<album><![CDATA[<a href="genre_list.xml" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></album>-->
+					<year>2014</year>
+					<genre>Alternative</genre>
+					<length>4:39</length>
+					<lyrics>ABC</lyrics>
+				</song3>
+			</songs>            
+	    </album1>
+	    <album2>
+			<album>
+				<a style="text-decoration:none; color:blue;">Halloween Howls</a>
+			</album>
+			<songs>
+				<song1>
+					<title>Spooky</title>
+					<artist>Andrew Gold</artist>
+					<!-- <album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Halloween Howls</a>]]></album> -->
+					<year>1995</year>
+					<genre>Spooky</genre>
+					<length>2:07</length>
+					<images>
+						<image size="thumb" type="jpg">pyramid thumbnail</image>
+						<image size="large" type="jpg">pyramid large</image>
+						<image size="full" type="tif">pyramid full</image>
+					</images>
+					<links>
+						<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+						<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+					</links>        
+				</song1>
+				<song2>
+					<title>Scary Skeletons</title>
+					<artist>Andrew Gold</artist>
+					<!-- <album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Halloween Howls</a>]]></album> -->
+					<year>1995</year>
+					<genre>Spooky</genre>
+					<length>2:07</length>
+					<images>
+						<image size="thumb" type="jpg">pyramid thumbnail</image>
+						<image size="large" type="jpg">pyramid large</image>
+						<image size="full" type="tif">pyramid full</image>
+					</images>
+					<links>
+						<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+						<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+					</links>        
+				</song2>
+				<song3>
+					<title>Spooky, Scary Skeletons</title>
+					<artist>Andrew Gold</artist>
+					<!-- <album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Halloween Howls</a>]]></album> -->
+					<year>1995</year>
+					<genre>Spooky</genre>
+					<length>2:07</length>
+					<images>
+						<image size="thumb" type="jpg">pyramid thumbnail</image>
+						<image size="large" type="jpg">pyramid large</image>
+						<image size="full" type="tif">pyramid full</image>
+					</images>
+					<links>
+						<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+						<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+					</links>        
+				</song3>
+			</songs>
+		    
+        </album2>
+        <album3>
+			<album>
+				<a style="text-decoration:none; color:blue;">Indian music</a>
+			</album>	
+			<songs>
+				<song1>
+					<title>Dil Deewana</title>
+					<artist>Andrew Gold</artist>
+					<!-- <album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Indian music</a>]]></album> -->
+					<year>1995</year>
+					<genre>Spooky</genre>
+					<length>2:07</length>
+					<images>
+						<image size="thumb" type="jpg">pyramid thumbnail</image>
+						<image size="large" type="jpg">pyramid large</image>
+						<image size="full" type="tif">pyramid full</image>
+					</images>
+					<links>
+						<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+						<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+					</links>        
+				</song1>
+				<song2>
+					<title>Dil Deewana 2</title>
+					<artist>Andrew Gold</artist>
+					<!-- <album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Indian music</a>]]></album> -->
+					<year>1995</year>
+					<genre>Spooky</genre>
+					<length>2:07</length>
+					<images>
+						<image size="thumb" type="jpg">pyramid thumbnail</image>
+						<image size="large" type="jpg">pyramid large</image>
+						<image size="full" type="tif">pyramid full</image>
+					</images>
+					<links>
+						<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+						<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+					</links>        
+				</song2>
+				<song3>
+					<title>Dil Deewana 3</title>
+					<artist>Andrew Gold</artist>
+					<!-- <album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Indian music</a>]]></album> -->
+					<year>1995</year>
+					<genre>Spooky</genre>
+					<length>2:07</length>
+					<images>
+						<image size="thumb" type="jpg">pyramid thumbnail</image>
+						<image size="large" type="jpg">pyramid large</image>
+						<image size="full" type="tif">pyramid full</image>
+					</images>
+					<links>
+						<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
+						<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
+					</links>        
+				</song3>
+			</songs>		            
+        </album3>
+    </albums>
 </catalog>
 
