@@ -11,21 +11,6 @@
 			<genre>Alternative</genre>
 			<length>4:39</length>
 			<lyrics>ABC</lyrics>
-			<!--<name language="english">Great Pyramid</name>
-			<location>Giza</location>
-			<country>Egypt</country>
-			<description>Khufu's pyramid on the Giza plateau outside Cairo</description>
-			<culture>Ancient Egypt</culture>
-			<history>
-		<period>Old Kingdom</period>
-				<dynasty>4</dynasty>
-				<year era="BC">2580</year>
-			</history>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>-->
 			<links>
 				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
 				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
