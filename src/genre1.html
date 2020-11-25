@@ -62,9 +62,9 @@
             var x = xmlDoc.getElementsByTagName("song");
             for (i = 0; i <x.length; i++) 
             { 
-                text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>";
+                // text += '<button class="album" type="button" onclick="loadDoc2()">' + x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + '</button>';
                 // <button type="button" onclick="loadDoc2()">
-                //     {text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>"}
+                text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>"
                 // </button>
 
             }
