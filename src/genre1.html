@@ -39,7 +39,7 @@
         <p><a href="album_artist_list_genre1.html">Hop-in</p>
     </div>
 </div>-->
-</div><!--conatiner end tag-->
+<!--conatiner end tag-->
 <script>
     function loadDoc()
     {
@@ -62,10 +62,8 @@
             var x = xmlDoc.getElementsByTagName("song");
             for (i = 0; i <x.length; i++) 
             { 
-                text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>";
-                // <button type="button" onclick="loadDoc2()">
-                //     {text += x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>"}
-                // </button>
+
+               text += "<br>" + x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>" + "<br>";
 
             }
             document.getElementById("demo").innerHTML = text;
@@ -90,7 +88,7 @@ function myFunction1(xml)
         var x = xmlDoc.getElementsByTagName("song");
         for (i = 0; i <x.length; i++) 
         { 
-            text += x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue + "<br>";
+            text += "<br>" + x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue + "<br>";
         }
         document.getElementById("demo").innerHTML = text;
 }
