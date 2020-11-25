@@ -140,6 +140,7 @@
 }
 
 .footer {
+    flex: 1;
     height: 85px;
     background: #333;
     padding: 15px;
