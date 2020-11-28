@@ -55,9 +55,16 @@ body{
     background-color: rgb(71, 69, 68);
     padding: 10px;
     text-transform:uppercase;
+    
   }
   .side h2{
     text-align:center;
+    color: #fff;
+   
+  }
+
+  .side a{
+    text-decoration:none;
     color: #fff;
   }
   .albums, .artists{
@@ -81,13 +88,20 @@ body{
     flex: 85%;
     background-color: white;
     padding: 20px;
-    background-image: url('image.jpeg');
+    background-image: url('./assets/image.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .main h4{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
 .showcase{
     margin: 105px;
-    height:55px;
+    height:80px;
     background:#333;
     color:#fff;
     border-radius:90px;
@@ -96,7 +110,7 @@ body{
 .showcase h3{
   text-align:center;
   font-size:50px;
-  
+  padding-top:10px;
   margin:0;
   padding-bottom:20px;
 }

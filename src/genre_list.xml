@@ -4,114 +4,222 @@
     <header>Musidex</header>
 	<song>
 		<song1>
-			<title><![CDATA[<a href="song_info.html" style="text-decoration:none; color:blue;">First Love / Last Spring</a>]]></title>
-			<artist>Mitski</artist>
-			<album><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></album>
-			<year>2014</year>
+			<artist><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:blue; font-weight:bolder;">Eminem</a>]]></artist>
+			<album><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:blue; font-weight:bolder;">Infinite</a>]]></album>
+			<year>1996</year>
 			<genre>Alternative</genre>
-			<length>4:39</length>
-			<lyrics>ABC</lyrics>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
+
+			<title1><![CDATA[<a href="song1_title1_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Infinite</a>]]></title1>
+				<song11info>
+					<songname11><![CDATA[<a href="https://www.youtube.com/watch?v=TyUWs246kAo" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Infinite</a>]]></songname11>
+					<length11>Length: 4:01</length11>
+					<year11>Released year: 1996</year11>
+					<artist11>Artist: Eminem</artist11>
+				</song11info>
+			<title2><![CDATA[<a href="song1_title2_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">It's ok</a>]]></title2>
+				<song21info>
+						<songname21><![CDATA[<a href="https://www.youtube.com/watch?v=EKOPq3pDQBM" style="text-decoration:none; color:blue; font-weight:bolder;">Play: It's ok</a>]]></songname21>
+						<length21>Length: 3:53</length21>
+						<year21>Released year: 1996</year21>
+						<artist21>Artist: Eminem</artist21>
+				</song21info>
+			<title3><![CDATA[<a href="song1_title3_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Tonite</a>]]></title3>
+				<song31info>
+						<songname31><![CDATA[<a href="https://www.youtube.com/watch?v=AJV71r28bz4" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Tonite</a>]]></songname31>
+						<length31>length: 3:43</length31>
+						<year31>Released year: 1996</year31>
+						<artist31>Artist: Eminem</artist31>
+				</song31info>
+			<title4><![CDATA[<a href="song1_title4_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Backstabber</a>]]></title4>
+				<song41info>
+						<songname41><![CDATA[<a href="https://www.youtube.com/watch?v=2IZEHOfKlvY" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Backstabber</a>]]></songname41>
+						<length41>Length: 3:29</length41>
+						<year41>Released year: 1996</year41>
+						<artist41>Artist: Eminem</artist41>
+				</song41info>
+			<title5><![CDATA[<a href="song1_title5_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Never 2 far</a>]]></title5>
+				<song51info>
+						<songname51><![CDATA[<a href="https://www.youtube.com/watch?v=2IZEHOfKlvY" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Never 2 far</a>]]></songname51>
+						<length51>Length: 3:44</length51>
+						<year51>Released year: 1996</year51>
+						<artist51>Artist: Eminem</artist51>
+				</song51info>
 		</song1>
 	</song>
 	<song>
 		<song2>
-			<title>Spooky, Scary Skeletons</title>
-			<artist>Andrew Gold</artist>
-			<album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Halloween Howls</a>]]></album>
-			<!--<album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Halloween Howls</a>]]></album>-->
-			<year>1995</year>
-			<genre>Spooky</genre>
-			<length>2:07</length>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
-			<!--<name language="english">Abu Simbel</name>
-			<location>Aswan</location>
-			<country>Egypt</country>
-			<description>temple complex built by Ramesses II</description>
-			<culture>Ancient Egypt</culture>
-			<history>
-		<period>New Kingdom</period>
-				<dynasty>19</dynasty>
-				<year era="BC">1264</year>
-			</history>
-			<images>
-				<image size="thumb" type="jpg">Abu Simbel thumbnail</image>
-				<image size="large" type="jpg">Abu Simbel large</image>
-				<image size="full" type="tif">Abu Simbel full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Abu_Simbel_temples">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/88">unesco</overview>
-			</links>
-			<notes>...</notes>-->
+			<artist><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song_list_2.html">Shawn Mendes</a>]]></artist>
+			<album><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song_list_2.html">Illuminate</a>]]></album>
+			<year>2016</year>
+			<genre>Pop</genre>
+			
+			<title1><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song2_title1_info.html">Mercy</a>]]></title1>
+				<song1info>
+					<songname><![CDATA[<a href="https://www.youtube.com/watch?v=KkGVmN68ByU" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Mercy</a>]]></songname>
+					<length>Length: 2:07</length>
+					<year>Released year: 2016</year>
+					<artist>Artist: Shawn mendes</artist>
+				</song1info>
+			<title2><![CDATA[<a href="song2_title2_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">No Promises</a>]]></title2>
+				<song2info>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=Em7vKe2sYzA" style="text-decoration:none; color:blue; font-weight:bolder;">Play: No Promises</a>]]></songname>
+						<length>Length: 2:46</length>
+						<year>Released year:2016</year>
+						<artist>Artist: Shawn mendes</artist>
+				</song2info>
+			<title3><![CDATA[<a href="song2_title3_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Lights On</a>]]></title3>
+				<song3info>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=9c-JUpRvTlk" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Lights On</a>]]></songname>
+						<length>Length: 3:21</length>
+						<year>Released year: 2016</year>
+						<artist>Artist: Shawn mendes</artist>
+				</song3info>
+			<title4><![CDATA[<a href="song2_title4_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Honest</a>]]></title4>
+				<song4info>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=RNM4ONvozD4" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Honest</a>]]></songname>
+						<length>Length: 3:19</length>
+						<year>Released year: 2016</year>
+						<artist>Artist: Shawn mendes</artist>
+				</song4info>
+			<title5><![CDATA[<a href="song2_title5_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Understand</a>]]></title5>
+				<song5info>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=IbVIIvhXAtM" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Understand</a>]]></songname>
+						<length>Length: 5:00</length>
+						<year>Released year: 2016</year>
+						<artist>Artist: Shawn mendes</artist>
+				</song5info>
 		</song2>
 	</song>
 	<song>
 		<song3>
-			<title>Spooky, Scary Skeletons</title>
-			<artist>Andrew Gold</artist>
-			<album>Halloween Howls</album>
-			<year>1995</year>
-			<genre>Spooky</genre>
-			<length>2:07</length>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
+			<artist><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song_list_3.html">Ariana Grande</a>]]></artist>
+			<album><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song_list_3.html">Sweetener</a>]]></album>
+			<year>2018</year>
+			<genre>Pop</genre>
+
+			<title1><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song3_title1_info.html">Raindrops</a>]]></title1>
+				<songinfo1>
+					<songname><![CDATA[<a href="https://www.youtube.com/watch?v=k-pqPHc5jdg" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Raindrops</a>]]></songname>
+					<length>Length: 0:31</length>
+					<year>Released year: 2018</year>
+					<artist>Artist: Ariana Grande</artist>
+				</songinfo1>
+			<title2><![CDATA[<a href="song3_title2_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Blazed</a>]]></title2>
+				<songinfo2>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=_Fi4dthAkII" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Blazed</a>]]></songname>
+						<length>Length: 3:17</length>
+						<year>Released year: 2018</year>
+						<artist>Artist: Ariana Grande</artist>
+				</songinfo2>
+			<title3><![CDATA[<a href="song3_title3_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">The Light is Coming</a>]]></title3>
+				<songinfo3>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=O0ET_8zeEk4" style="text-decoration:none; color:blue; font-weight:bolder;">Play: The Light is Coming</a>]]></songname>
+						<length>Length: 3:46</length>
+						<year>Released year: 2018</year>
+						<artist>Artist: Ariana Grande</artist>
+				</songinfo3>
+			<title4><![CDATA[<a href="song3_title4_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Everytime</a>]]></title4>
+				<songinfo4>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=MYvjW3zdCws" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Everytime</a>]]></songname>
+						<length>Length: 2:53</length>
+						<year>Released year: 2018</year>
+						<artist>Artist: Ariana Grande</artist>
+				</songinfo4>
+			<title5><![CDATA[<a href="song3_title5_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Breathin</a>]]></title5>
+				<songinfo5>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=1BYr1br2Ee4" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Breathin</a>]]></songname>
+						<length>Length: 3:16</length>
+						<year>Released year: 2018</year>
+						<artist>Artist: Ariana Grande</artist>
+				</songinfo5>			
 		</song3>
 	</song>
 	<song>
 		<song4>
-			<title>Spooky, Scary Skeletons</title>
-			<artist>Andrew Gold</artist>
-			<album>Halloween Howls</album>
-			<year>1995</year>
-			<genre>Spooky</genre>
-			<length>2:07</length>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
+			<artist><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song_list_4.html">Beyonce</a>]]></artist>
+			<album><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song_list_4.html">B'Day</a>]]></album>
+			<year>2006</year>
+			<genre>Pop</genre>
+			
+			<title1><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song4_title1_info.html">Beautiful Liar</a>]]></title1>
+				<songinfo14>
+					<songname><![CDATA[<a href="https://www.youtube.com/watch?v=MiSnhcolFGk" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Beautiful Liar</a>]]></songname>
+					<length>Length: 3:20</length>
+					<year>Released year: 2006</year>
+					<artist>Artist: Beyonce</artist>
+				</songinfo14>
+			<title2><![CDATA[<a href="song4_title2_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Irreplacable</a>]]></title2>
+				<songinfo24>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=zDRcHKN2aa8" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Irreplacable</a>]]></songname>
+						<length>Length: 3:17</length>
+						<year>Released year: 2006</year>
+						<artist>Artist: Beyonce</artist>
+				</songinfo24>
+			<title3><![CDATA[<a href="song4_title3_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Green Light</a>]]></title3>
+				<songinfo34>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=WcHmra312rI" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Green Light</a>]]></songname>
+						<length>Length: 3:32</length>
+						<year>Released year: 2006</year>
+						<artist>Artist: Beyonce</artist>
+				</songinfo34>
+			<title4><![CDATA[<a href="song4_title4_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Flaws and All</a>]]></title4>
+				<songinfo44>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=BHzAMeOgw2o" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Flaws and All</a>]]></songname>
+						<length>Length: 4:14</length>
+						<year>Released year: 2006</year>
+						<artist>Artist: Beyonce</artist>
+				</songinfo44>
+			<title5><![CDATA[<a href="song4_title5_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Resentment</a>]]></title5>
+				<songinfo54>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=Tzp2vUp3kyo" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Resentment</a>]]></songname>
+						<length>Length: 4:43</length>
+						<year>Released year: 2006</year>
+						<artist>Artist: Beyonce</artist>
+				</songinfo54>
 		</song4>
 	</song>
 	<song>
 		<song5>
-			<title>Spooky, Scary Skeletons</title>
-			<artist>Andrew Gold</artist>
-			<album>Halloween Howls</album>
-			<year>1995</year>
-			<genre>Spooky</genre>
-			<length>2:07</length>
-			<images>
-				<image size="thumb" type="jpg">pyramid thumbnail</image>
-				<image size="large" type="jpg">pyramid large</image>
-				<image size="full" type="tif">pyramid full</image>
-			</images>
-			<links>
-				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
-				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
-			</links>
+			<artist><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song_list_5.html">Taylor swift</a>]]></artist>
+			<album><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song_list_5.html">Red</a>]]></album>
+			<year>2012</year>
+			<genre>Pop</genre>
+			
+			<title1><![CDATA[<a style="text-decoration:none; color:blue; font-weight:bolder;" href="song5_title1_info.html">State of Grace</a>]]></title1>
+				<songinfo51>
+					<songname><![CDATA[<a href="https://www.youtube.com/watch?v=OmBv_7SC7qc" style="text-decoration:none; color:blue; font-weight:bolder;">Play: State of Grace</a>]]></songname>
+					<length>Length: 4:55</length>
+					<year>Released year: 2012</year>
+					<artist>Artist: Taylor Swift</artist>
+				</songinfo51>
+			<title2><![CDATA[<a href="song5_title2_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Treacherous</a>]]></title2>
+				<songinfo52>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=7cOqgarjuRc" style="text-decoration:none; color:blue; font-weight:bolder;">Treacherous</a>]]></songname>
+						<length>Length: 4:03</length>
+						<year>Released year: 2012</year>
+						<artist>Artist: Taylor Swift</artist>
+				</songinfo52>
+			<title3><![CDATA[<a href="song5_title3_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">All Too Well</a>]]></title3>
+				<songinfo53>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=Fd_AtH0yVqU" style="text-decoration:none; color:blue; font-weight:bolder;">Play: All Too Well</a>]]></songname>
+						<length>Length: 5:28</length>
+						<year>Released year: 2012</year>
+						<artist>Artist: Taylor Swift</artist>
+				</songinfo53>
+			<title4><![CDATA[<a href="song5_title4_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">I Almost Do</a>]]></title4>
+				<songinfo541>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=aZGpXk8vYno" style="text-decoration:none; color:blue; font-weight:bolder;">Play: I Almost Do</a>]]></songname>
+						<length>Length: 4:04</length>
+						<year>Released year: 2012</year>
+						<artist>Artist: Taylor Swift</artist>
+				</songinfo541>
+			<title5><![CDATA[<a href="song5_title5_info.html" style="text-decoration:none; color:blue; font-weight:bolder;">Stay Stay Stay</a>]]></title5>
+				<songinfo55>
+						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=BlOfs4VMtBA" style="text-decoration:none; color:blue; font-weight:bolder;">Play: Stay Stay Stay</a>]]></songname>
+						<length>Length: 3:26</length>
+						<year>Released year: 2006</year>
+						<artist>Artist: Taylor Swift</artist>
+				</songinfo55>
 		</song5>
 	</song>
 </catalog>

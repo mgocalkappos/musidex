@@ -22,7 +22,7 @@
             <button class="albums" type="button" onclick="loadDoc()">Song Lists</button>
         </div>
         <div class="main">
-            <h4>Illuminate Pop Music Album</h4>
+            <h4>B'Day Pop Music Album</h4>
             <div id="demo"></div>
         </div>
     </div>
@@ -48,7 +48,7 @@
         function myFunction(xml) {
             var i, text = "";
             var xmlDoc = xml.responseXML;
-            var x = xmlDoc.getElementsByTagName("song2");
+            var x = xmlDoc.getElementsByTagName("song4");
             console.log(x);
             for (i = 0; i <x.length; i++) 
             { 
@@ -59,8 +59,10 @@
             "<br>" + x[i].getElementsByTagName("title5")[0].childNodes[0].nodeValue + "<br>";
             }
             document.getElementById("demo").innerHTML = text;
-        }
-    
+        }    
+
 </script>
+
 </body>
+
 </html>
