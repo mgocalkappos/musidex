@@ -33,7 +33,7 @@
 		</song1>
 	</song>
 	<song>
-		<song2>
+
 			<title>Spooky, Scary Skeletons</title>
 			<artist>Andrew Gold</artist>
 			<album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Halloween Howls</a>]]></album>
@@ -69,10 +69,10 @@
 				<overview type="heritage" url="http://whc.unesco.org/en/list/88">unesco</overview>
 			</links>
 			<notes>...</notes>-->
-		</song2>
+
 	</song>
 	<song>
-		<song3>
+
 			<title>Spooky, Scary Skeletons</title>
 			<artist>Andrew Gold</artist>
 			<album>Halloween Howls</album>
@@ -88,10 +88,10 @@
 				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
 				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
 			</links>
-		</song3>
+
 	</song>
 	<song>
-		<song4>
+
 			<title>Spooky, Scary Skeletons</title>
 			<artist>Andrew Gold</artist>
 			<album>Halloween Howls</album>
@@ -107,10 +107,10 @@
 				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
 				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
 			</links>
-		</song4>
+
 	</song>
 	<song>
-		<song5>
+
 			<title>Spooky, Scary Skeletons</title>
 			<artist>Andrew Gold</artist>
 			<album>Halloween Howls</album>
@@ -126,7 +126,7 @@
 				<overview type="general" url="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">wikipedia</overview>
 				<overview type="heritage" url="http://whc.unesco.org/en/list/86">unesco</overview>
 			</links>
-		</song5>
+
 	</song>
 </catalog>
 

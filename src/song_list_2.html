@@ -63,17 +63,10 @@
     {
         var i, text="";
             var xmlDoc = xml.responseXML;
-            var x = xmlDoc.getElementsByTagName("song2");
+            var x = xmlDoc.getElementsByTagName("song");
             for (i = 0; i <x.length; i++) 
             { 
                 text += "Song Title: " + x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "<br>";
-                // text += "Artist: " + x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue + "<br>";
-                // text += "Album: " + x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>";
-                // text += "Genre: " + x[i].getElementsByTagName("genre")[0].childNodes[0].nodeValue + "<br>";
-                // text += "Year: " + x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue + "<br>";
-                // text += "Song Length: " + x[i].getElementsByTagName("length")[0].childNodes[0].nodeValue + "<br>";
-                // text += x[i].getElementsByTagName("lyrics")[0].childNodes[0].nodeValue + "<br>";
-                // text += x[i].getElementsByTagName("links")[0].childNodes[0].nodeValue + "<br>";
             }
             document.getElementById("demo").innerHTML = text;
    }
