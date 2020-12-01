@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="genre_list.xsl"?>
+<?xml-stylesheet type="text/css" href="xml_styles.css"?>
 <catalog>
     <header>Musidex</header>
 	<song>
@@ -58,35 +58,35 @@
 					<songname><![CDATA[<a href="https://www.youtube.com/watch?v=KkGVmN68ByU" style="text-decoration:none; color:white; font-weight:bolder;">Play: Mercy</a>]]></songname>
 					<length>Length: 2:07</length>
 					<year>Released year: 2016</year>
-					<artist>Artist: Shawn mendes</artist>
+					<artist>Artist: Shawn Mendes</artist>
 				</song1info>
 			<title2><![CDATA[<a href="song2_title2_info.html" style="text-decoration:none; color:white; font-weight:bolder;">No Promises</a>]]></title2>
 				<song2info>
 						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=Em7vKe2sYzA" style="text-decoration:none; color:white; font-weight:bolder;">Play: No Promises</a>]]></songname>
 						<length>Length: 2:46</length>
 						<year>Released year:2016</year>
-						<artist>Artist: Shawn mendes</artist>
+						<artist>Artist: Shawn Mendes</artist>
 				</song2info>
 			<title3><![CDATA[<a href="song2_title3_info.html" style="text-decoration:none; color:white; font-weight:bolder;">Lights On</a>]]></title3>
 				<song3info>
 						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=9c-JUpRvTlk" style="text-decoration:none; color:white; font-weight:bolder;">Play: Lights On</a>]]></songname>
 						<length>Length: 3:21</length>
 						<year>Released year: 2016</year>
-						<artist>Artist: Shawn mendes</artist>
+						<artist>Artist: Shawn Mendes</artist>
 				</song3info>
 			<title4><![CDATA[<a href="song2_title4_info.html" style="text-decoration:none; color:white; font-weight:bolder;">Honest</a>]]></title4>
 				<song4info>
 						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=RNM4ONvozD4" style="text-decoration:none; color:white; font-weight:bolder;">Play: Honest</a>]]></songname>
 						<length>Length: 3:19</length>
 						<year>Released year: 2016</year>
-						<artist>Artist: Shawn mendes</artist>
+						<artist>Artist: Shawn Mendes</artist>
 				</song4info>
 			<title5><![CDATA[<a href="song2_title5_info.html" style="text-decoration:none; color:white; font-weight:bolder;">Understand</a>]]></title5>
 				<song5info>
 						<songname><![CDATA[<a href="https://www.youtube.com/watch?v=IbVIIvhXAtM" style="text-decoration:none; color:white; font-weight:bolder;">Play: Understand</a>]]></songname>
 						<length>Length: 5:00</length>
 						<year>Released year: 2016</year>
-						<artist>Artist: Shawn mendes</artist>
+						<artist>Artist: Shawn Mendes</artist>
 				</song5info>
 		</song2>
 	</song>

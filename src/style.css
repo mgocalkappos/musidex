@@ -30,8 +30,9 @@ body {
     height: 150px;
     padding: 35px;
     padding-bottom: 20px;
-    background-color: #383737;
-    border: 1px solid #383737;
+    background-color: #1B1B1B;
+    /* background-color: #2B2D2F; */
+    /* border: 1px solid #383737; */
     z-index: 10;
 }
 
@@ -45,29 +46,36 @@ body {
 }
 
 .flex-container1 {
-    flex: 4;
+    flex: 7;
     display: flex;
     flex-wrap: no-wrap;
-    margin-bottom: 6px;
-    background-color: blueviolet;
-    border: 1px solid #383737;
-    z-index: 10;
+    /* margin-bottom: 6px; */
+    /* background-color: blueviolet; */
+    /* border: 1px solid #383737; */
+    /* z-index: 10; */
     height: 350px;
+    background-image: url('./assets/musidex-main-image.jpg');
+    background-size: 100vw;
+    background-position: center;
+    box-shadow: inset 0px 0px 200px 1000px rgb(0, 0, 0, 0.6);
 }
 
 .side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     flex: 15%;
-    background-color: blueviolet;
-    background-color: rgb(71, 69, 68);
+    /* background-color: rgb(71, 69, 68); */
     padding: 10px;
+    margin-left: 3vw;
     text-transform: uppercase;
-
   }
 
   .side h2 {
+    padding-top: 100px;
     text-align: center;
     color: #fff;
-
   }
 
   .side a {
@@ -85,6 +93,10 @@ body {
     font-weight: bolder;
     font-size: 20px;
     font-family: "Allerta Stencil", Sans-serif;
+  }
+
+  .artists {
+    margin-top: 5px;
   }
 
   .albums:hover, .artists:hover {
@@ -105,18 +117,22 @@ body {
     justify-content: center;
     align-items: center;
     flex: 85%;
-    background-color: white;
+    padding-right: 17vw;
+    color: white;
+    /* background-color: white; */
     /* padding: 20px; */
-    background-image: url('./assets/image.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url('./assets/musidex-main-image.jpg');
+    background-size: 70vw;
+    background-position: center;
+    box-shadow: inset 0px 0px 100px 300px rgb(0, 0, 0, 0.5); */
   }
 
   .main h4 {
     text-align:center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Allerta Stencil", Sans-serif;
     font-weight: bold;
     font-size: 20px;
+    color: white;
   }
 
 .showcase {
@@ -146,7 +162,8 @@ body {
   .footer {
     flex: 1;
     height: 85px;
-    background: #333;
+    background-color: #1B1B1B;
+    /* background-color: #2B2D2F; */
     padding: 15px;
     color:#fff;
   }

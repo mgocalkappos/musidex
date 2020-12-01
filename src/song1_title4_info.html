@@ -9,15 +9,13 @@
 </head>
 
 <body>
-
+  <div class="page">
     <div class="header">
         <h1> Musidex </h1>
         <!--<h1><a href="catalog.xml">View Catalog</a></h1>-->
     </div>
-    <br>
     <div class="flex-container1">
         <div id="side" class="side">
-            <br>
             <h2><a href="song_list_1.html">Back</a></h2>
             <button class="albums" type="button" onclick="loadDoc()">Song Info</button>
         </div>
@@ -26,13 +24,12 @@
             <div id="demo"></div>
         </div>
     </div>
-    <br>
     <div class="footer">
         <p>copyright 2020 - Lahari | Maya | Sophie</p>
     </div>
-
+  </div>
 <script>
-        
+
     function loadDoc()
      {
 
@@ -50,8 +47,8 @@
             var xmlDoc = xml.responseXML;
             var x = xmlDoc.getElementsByTagName("song41info");
             console.log(x);
-            for (i = 0; i <x.length; i++) 
-            { 
+            for (i = 0; i <x.length; i++)
+            {
                 text += "<br>" + x[i].getElementsByTagName("songname41")[0].childNodes[0].nodeValue +  "<br>" + "<br>" +
                 x[i].getElementsByTagName("length41")[0].childNodes[0].nodeValue +  "<br>" + "<br>" +
                 x[i].getElementsByTagName("year41")[0].childNodes[0].nodeValue +  "<br>" + "<br>" +
