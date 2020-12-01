@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Musidex | Genres</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1> Musidex </h1>
+        <!--<h1><a href="catalog.xml">View Catalog</a></h1>-->
+    </div>
+    <br>
+    <div class="flex-container1">
+        <div id="side" class="side">
+            <br>
+            <h2>Menu</h2>
+            <button class="albums" type="button" onclick="loadDoc()">Albums</button>
+            <button class="artists" type="button" onclick="loadDoc1()">Artists</button>
+        </div>
+        <div id="demo" class="main">
+            <div id="demo-child1" style="display: block;" class="showcase">
+                <h3 style="font-size:35px; padding:7px;">Vibrant Musics</h3>
+            </div>
+            <p id="demo1"></p>
+            <!-- <div id="demo-child2" style="display: none;">
+                <ul id="album-list" style="list-style-type:none;">
+                </ul>
+            </div>
+            <div id="demo-child4" style="display: none;">
+                <ul id="artist-list" style="list-style-type:none;">
+                </ul>
+            </div>
+           <div id="demo-child3" style="display: none;">
+                <ul id="song-list" style="list-style-type:none;">
+                </ul>
+            </div> -->
+        </div>
+    </div>
+    <br>
+    <div class="footer">
+        <p>copyright 2020 - Lahari | Maya | Sophie</p>
+    </div>
+
+<script>
+        
+    function loadDoc()
+     {
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "genre_list.xml", true);
+            xhttp.send();
+        }
+        function myFunction(xml) {
+            var i, text = "";
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("song1info");
+            console.log(x);
+            for (i = 0; i <x.length; i++) 
+            { 
+                text += "<br>" + x[i].getElementsByTagName("songname")[0].childNodes[0].nodeValue +  "<br>" +
+                x[i].getElementsByTagName("length")[0].childNodes[0].nodeValue +  "<br>" + 
+                x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue +  "<br>";
+               //text += "<br>" + x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue + "<br>" + "<br>";
+
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+    
+        function loadDoc1()
+     {
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction1(this);
+                }
+            };
+            xhttp.open("GET", "tryout.xml", true);
+            xhttp.send();
+        }
+    
+function myFunction1(xml)
+{
+    var i, text="";
+        var xmlDoc = xml.responseXML;
+        var x = xmlDoc.getElementsByTagName("song");
+        for (i = 0; i <x.length; i++) 
+        { 
+            text += "<br>" + x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue +  
+            "<br>" + x[i].getElementsByTagName("title1")[0].childNodes[0].nodeValue + "<br>" +
+            "<br>" + x[i].getElementsByTagName("title2")[0].childNodes[0].nodeValue + "<br>" +
+            "<br>" + x[i].getElementsByTagName("title3")[0].childNodes[0].nodeValue + "<br>" +
+            "<br>" + x[i].getElementsByTagName("title4")[0].childNodes[0].nodeValue + "<br>";
+        }
+
+            document.getElementById("demo").innerHTML = text;
+}
+    </script>
+
+</body>
+
+</html>
