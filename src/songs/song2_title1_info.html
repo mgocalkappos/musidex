@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Musidex | Genres</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+</head>
+
+<body>
+  <div class="page">
+    <div class="header">
+        <h1><a class="click-header" href="../index.html"> Musidex </a></h1>
+        <!--<h1><a href="catalog.xml">View Catalog</a></h1>-->
+    </div>
+    <div class="flex-container1">
+        <div id="side" class="side">
+            <h2><a href="song_list_2.html">Back</a></h2>
+            <button class="albums" type="button" onclick="loadDoc()">Song Info</button>
+        </div>
+        <div class="main">
+            <h4>Illuminate Music Album</h4>
+            <div id="demo"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>copyright 2020 - Lahari | Maya | Sophie</p>
+    </div>
+  </div>
+<script>
+
+    function loadDoc()
+     {
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "../genre_list.xml", true);
+            xhttp.send();
+        }
+        function myFunction(xml) {
+            var i, text = "";
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("song1info");
+            console.log(x);
+            for (i = 0; i <x.length; i++)
+            {
+                text += "<br>" + x[i].getElementsByTagName("songname")[0].childNodes[0].nodeValue +  "<br>" + "<br>" +
+                x[i].getElementsByTagName("length")[0].childNodes[0].nodeValue +  "<br>" + "<br>" +
+                x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue +  "<br>" + "<br>" +
+                x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue +  "<br>" + "<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+</script>
+
+</body>
+
+</html>

@@ -4,8 +4,8 @@
     <header>Musidex</header>
 	<song>
 		<song1>
-			<artist><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:white; font-weight:bolder;">Eminem</a>]]></artist>
-			<album><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:white; font-weight:bolder;">Infinite</a>]]></album>
+			<artist><![CDATA[<a href="songs/song_list_1.html" style="text-decoration:none; color:white; font-weight:bolder;">Eminem</a>]]></artist>
+			<album><![CDATA[<a href="songs/song_list_1.html" style="text-decoration:none; color:white; font-weight:bolder;">Infinite</a>]]></album>
 			<year>1996</year>
 			<genre>Alternative</genre>
 
@@ -48,8 +48,8 @@
 	</song>
 	<song>
 		<song2>
-			<artist><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="song_list_2.html">Shawn Mendes</a>]]></artist>
-			<album><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="song_list_2.html">Illuminate</a>]]></album>
+			<artist><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="songs/song_list_2.html">Shawn Mendes</a>]]></artist>
+			<album><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="songs/song_list_2.html">Illuminate</a>]]></album>
 			<year>2016</year>
 			<genre>Pop</genre>
 
@@ -92,8 +92,8 @@
 	</song>
 	<song>
 		<song3>
-			<artist><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="song_list_3.html">Ariana Grande</a>]]></artist>
-			<album><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="song_list_3.html">Sweetener</a>]]></album>
+			<artist><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="songs/song_list_3.html">Ariana Grande</a>]]></artist>
+			<album><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="songs/song_list_3.html">Sweetener</a>]]></album>
 			<year>2018</year>
 			<genre>Pop</genre>
 
@@ -136,8 +136,8 @@
 	</song>
 	<song>
 		<song4>
-			<artist><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="song_list_4.html">Beyonce</a>]]></artist>
-			<album><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="song_list_4.html">B'Day</a>]]></album>
+			<artist><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="songs/song_list_4.html">Beyonce</a>]]></artist>
+			<album><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="songs/song_list_4.html">B'Day</a>]]></album>
 			<year>2006</year>
 			<genre>Pop</genre>
 
@@ -180,8 +180,8 @@
 	</song>
 	<song>
 		<song5>
-			<artist><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="song_list_5.html">Taylor swift</a>]]></artist>
-			<album><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="song_list_5.html">Red</a>]]></album>
+			<artist><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="songs/song_list_5.html">Taylor swift</a>]]></artist>
+			<album><![CDATA[<a style="text-decoration:none; color:white; font-weight:bolder;" href="songs/song_list_5.html">Red</a>]]></album>
 			<year>2012</year>
 			<genre>Pop</genre>
 
