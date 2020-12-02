@@ -7,6 +7,7 @@
 		<country>Egypt</country>
 		<description>Khufu's pyramid on the Giza plateau outside Cairo</description>
 		<culture>Ancient Egypt</culture>
+		<!--<album><![CDATA[<a style="text-decoration:none; color:red;" href="song_list.xml">Halloween Howls</a>]]></album>-->
 		<history>
       <period>Old Kingdom</period>
 			<dynasty>4</dynasty>

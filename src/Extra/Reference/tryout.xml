@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="genre_list.xsl"?>
+<catalog>
+    <header>Musidex</header>
+	
+	
+	<lists>
+		<list1>	
+			<namealbum><![CDATA[<a href="tryalbum1.html" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></namealbum>
+			<nameartist><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></nameartist>
+		</list1>
+	</lists>
+	<lists>
+		<list2>
+			<namealbum><![CDATA[<a style="text-decoration:none; color:red;" href="song_list_2.html">Halloween Howls</a>]]></namealbum>
+			<nameartist><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></nameartist>
+		</list2>
+	</lists>
+	<lists>
+		<list3>		
+			<namealbum>Halloween Howls</namealbum>
+			<nameartist><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></nameartist>
+		</list3>
+	</lists>
+	<lists>
+		<list4>
+			<namealbum>Halloween Howls</namealbum>
+			<nameartist><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></nameartist>
+		</list4>
+	</lists>
+	<lists>
+		<list5>
+			<namealbum>Halloween Howls</namealbum>
+			<nameartist><![CDATA[<a href="song_list_1.html" style="text-decoration:none; color:blue;">Bury Me at Makeout Creek</a>]]></nameartist>
+		</list5>
+	</lists>
+</catalog>
