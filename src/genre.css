@@ -10,7 +10,7 @@
     align-items: space-between;
     background-image: url('./assets/musidex-intro-image.jpg');
     box-shadow: inset 0px 0px 200px 1000px rgb(0, 0, 0, 0.6);
-    background-size: 100vw;
+    background-size: 150vw;
 }
 
 .header {
